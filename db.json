@@ -1,0 +1,59 @@
+{
+  "id": "1",
+  "key": "8a7d46840695288943843c7ad76b87115adf267c869ea54b53ec4002222e3f7d",
+  "routing": {
+    "type": "queue",
+    "location": "testLocationID"
+  },
+  "theme": {
+    "colors": {
+      "primary": "#03a9fc",
+      "secondary": "#e67373"
+    },
+    "fonts": {
+      "agent": {
+        "color": "#000000",
+        "size": "14px",
+        "family": "Roboto",
+        "style": "normal"
+      },
+      "client": {
+        "color": "#000000",
+        "size": "14px",
+        "family": "Roboto",
+        "style": "normal"
+      }
+    },
+    "icon": {
+      "location": {
+        "vertical": "bottom",
+        "horizontal": "right"
+      }
+    },
+    "chat": {
+      "width": "40px",
+      "height": "100px",
+      "resize": "true",
+      "on-screen": "true"
+    }
+  },
+  "configuration": {
+    "user-info": [
+      "first-name",
+      "last-name",
+      "email",
+      "phone",
+      "city",
+      "state",
+      "zip-code",
+      "company-name"
+    ],
+    "in-chat-options": {
+      "display-welcome-message": "Welcome!",
+      "allow-attachements": true,
+      "email-chat-transcript": true,
+      "display-static-text": "",
+      "gather-chat-analytics": true
+    }
+  }
+}
